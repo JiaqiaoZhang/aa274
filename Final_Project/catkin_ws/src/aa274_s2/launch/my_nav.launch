@@ -1,0 +1,13 @@
+<launch>
+
+	<arg name = "v_max_value" default = "0.2" />
+	<arg name ="om_max_value" default = "0.4" />
+	
+	<node pkg="aa274_s2" type="Section5Marker.py" name="turtlebot_Section5Marker" />	
+	<node type="rviz" name="rviz" pkg="rviz" args="-d $(find aa274_s2)/rviz/my_nav.rviz" />
+	
+	<node pkg="asl_turtlebot" type="navigator.py" name="turtlebot_navigator" />
+	<param name = "turtlebot_navigator/v_max" type = "double" value = "$(arg v_max_value)" />
+	<param name = "turtlebot_navigator/om_max" type = "double" value = "$(arg om_max_value)" />
+
+</launch>

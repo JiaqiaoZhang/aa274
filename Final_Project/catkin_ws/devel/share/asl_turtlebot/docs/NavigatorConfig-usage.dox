@@ -1,0 +1,17 @@
+\subsubsection usage Usage
+\verbatim
+<node name="navigator" pkg="asl_turtlebot" type="navigator">
+  <param name="k1" type="double" value="0.8" />
+  <param name="k2" type="double" value="0.4" />
+  <param name="k3" type="double" value="0.4" />
+  <param name="spline_alpha" type="double" value="0.01" />
+  <param name="traj_dt" type="double" value="0.1" />
+  <param name="isExplore" type="bool" value="True" />
+  <param name="order1" type="str" value="" />
+  <param name="order2" type="str" value="" />
+  <param name="order3" type="str" value="" />
+  <param name="order4" type="str" value="" />
+  <param name="isShortestPath" type="bool" value="False" />
+</node>
+\endverbatim
+

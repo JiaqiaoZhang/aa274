@@ -1,0 +1,8 @@
+prefix=/home/aa274/catkin_ws/devel
+
+Name: velodyne_driver
+Description: Description of velodyne_driver
+Version: 1.5.2
+Cflags: -I/home/aa274/catkin_ws/devel/include -I/home/aa274/catkin_ws/src/velodyne/velodyne_driver/include
+Libs: -L/home/aa274/catkin_ws/devel/lib -lvelodyne_input
+Requires: diagnostic_updater dynamic_reconfigure nodelet roscpp tf velodyne_msgs

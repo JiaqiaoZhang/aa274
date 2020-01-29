@@ -1,0 +1,8 @@
+prefix=/home/aa274/catkin_ws/install
+
+Name: turtlebot3_bringup
+Description: Description of turtlebot3_bringup
+Version: 0.1.6
+Cflags: 
+Libs: -L/home/aa274/catkin_ws/install/lib 
+Requires: 

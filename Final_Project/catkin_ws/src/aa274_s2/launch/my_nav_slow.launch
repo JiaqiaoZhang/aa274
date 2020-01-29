@@ -1,0 +1,11 @@
+<launch>
+
+    <include file="$(find aa274_s2)/launch/my_nav.launch">
+
+	<arg name="v_max_value" value="0.1" />
+        <arg name="om_max_value" value="0.2" />
+    
+    </include>
+	
+
+</launch>

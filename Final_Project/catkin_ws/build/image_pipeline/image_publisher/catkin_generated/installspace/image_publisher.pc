@@ -1,0 +1,8 @@
+prefix=/home/aa274/catkin_ws/install
+
+Name: image_publisher
+Description: Description of image_publisher
+Version: 1.13.0
+Cflags: -I/home/aa274/catkin_ws/install/include
+Libs: -L/home/aa274/catkin_ws/install/lib 
+Requires: 
